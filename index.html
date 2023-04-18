@@ -1,186 +1,290 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 
 <head>
-	<title>Rupsa Chakraborty</title>
+	<title>Rupsa Chakraborty|Portfolio</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
 </head>
 
 <body class="is-preload">
 
 	<!-- Wrapper -->
-	<div id="wrapper" class="fade-in">
-
-		<!-- Intro -->
-		<div id="intro">
-			<h1>My Portfolio</h1>
-			<p>Hi! I am Rupsa Chakraborty.</p>
-			<ul class="actions">
-				<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-			</ul>
-		</div>
+	<div id="wrapper">
 
 		<!-- Header -->
-		<header id="header">
-			<a href="index.html" class="logo">Rupsa Chakraborty</a>
+		<header id="header" class="alt">
+			<span class="logo"><img src="images/logo.svg" alt="" /></span>
+			<h1>Rupsa Chakraborty</h1>
+			<p>Hi!</p>
 		</header>
 
 		<!-- Nav -->
 		<nav id="nav">
-			<ul class="links">
-				<!-- <li class="active"><a href="index.html">This is Massively</a></li> -->
-			</ul>
-			<ul class="icons">
-				<li><a href="https://www.linkedin.com/in/rupsa-chakraborty25/" class="icon brands fa-linkedin"><span
-							class="label">Linkedin</span></a></li>
-				<li><a href="https://github.com/Rupsa25" class="icon brands fa-github"><span
-							class="label">GitHub</span></a></li>
+			<ul>
+				<li><a href="#intro" class="active">Introduction</a></li>
+				<li><a href="#first">Projects</a></li>
+				<li><a href="#second">Technologies</a></li>
+				<li><a href="#footer">Contact</a></li>
 			</ul>
 		</nav>
 
 		<!-- Main -->
 		<div id="main">
 
-			<!-- Featured Post -->
-			<!-- <article class="post featured">
-				<header class="major">
-					<div class="cute-boxes">
-						<div class="infor">
-							<h3>Education</h3>
-							<p>I am currently pursuing a Master's Degree in Computer Science from Rutgers University.I
-								completed my Bachelors Degree in Computer Science and Engineering from Vellore Institute
-								of Technology,Chennai.</p>
-						</div>
-						<div class="infor">
-							<h3>Experience</h3>
-							<p>I have 6 months of experience working in the data engineering team at Phenom People, an
-								HR tech firm,wherein I built data pipelines by developing ETL scripts using python and
-								Sql, to source and transform the data.</p>
-						</div>
+			<!-- Introduction -->
+			<section id="intro" class="main">
+				<div class="spotlight">
+					<div class="content">
+						<header class="major">
+							<h2>About me</h2>
+						</header>
+						<p>I am currently pursuing a Master's Degree in Computer Science from Rutgers
+							University.I completed my Bachelors Degree in Computer Science and Engineering from Vellore
+							Institute of Technology,Chennai.I have 6 months of experience working as a Data Engineer at
+							Phenom People, an
+							HR tech firm,wherein I built data pipelines by developing ETL scripts using python and
+							Sql, to source and transform the data.</p>
+
 					</div>
-				</header>
-			</article> -->
-			<div class="row">
-				<div class="col-6 offset-3">
-
-					<div id="myCarousel" class="carousel slide " data-bs-ride="carousel">
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img src="https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg"
-									class="d-block w-100" alt="Slide 1">
-								<div class="carousel-caption" style=" color: black;">
-									<h5>Education</h5>
-									<p>I am currently pursuing a Master's Degree in Computer Science from Rutgers
-										University.I
-										completed my Bachelors Degree in Computer Science and Engineering from Vellore
-										Institute
-										of Technology,Chennai.</p>
-								</div>
-							</div>
-							<div class="carousel-item">
-								<img src="https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg"
-									class="d-block w-100" alt="Slide 2">
-								<div class="carousel-caption" style=" color: black;">
-									<h5>Experience</h5>
-									<p>I have 6 months of experience working in the data engineering team at Phenom
-										People, an
-										HR tech firm,wherein I built data pipelines by developing ETL scripts using
-										python and
-										Sql, to source and transform the data.</p>
-								</div>
-							</div>
-						</div>
-						<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
-							data-bs-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Previous</span>
-						</button>
-						<button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
-							data-bs-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Next</span>
-						</button>
-					</div>
-
-
+					<span class="image"><img src="images/IMG_4330.PNG" alt="" /></span>
 				</div>
-			</div>
+			</section>
 
+			<!-- First Section -->
+			<section id="first" class="main special">
+				<header class="major">
+					<h2>My Projects</h2>
+				</header>
+				<ul class="features">
+					<li>
+						<span class="icon solid major style1 fa-code"></span>
+						<h3>SQL Query Executer</h3>
+						<p>Built a multi database query parsing engine that executes SQL queries in different databases
+							namely MySQL and Redshift.Reduced
+							the
+							response time by 35% with the help of indexing and built this as a cross platform mobile
+							application for android and iOS using react native for frontend and flask backend</p>
+						<a href="https://github.com/faisyed/multi-db-query-parser" class="button">Access
+							Project</a>
 
-			<!-- Posts -->
-			<section class="posts">
-				<article>
-					<header>
-						<span class="date">Jan 2022 - April 2022</span>
-						<h2><a href="#">SQL Query Executer</a></h2>
-					</header>
-					<a href="#" class="image fit"><img src="images/DB.png" alt="" /></a>
-					<p>Built a multi database query parsing engine that executes SQL queries in different databases
-						namely MySQL and Redshift, displaying the time elapsed after completing the query.Reduced the
-						response time by 35% with the help of indexing and built this as a cross platform mobile
-						application for android and iOS using react native for frontend and flask backend</p>
-					<ul class="actions special">
-						<li><a href="https://github.com/faisyed/multi-db-query-parser" class="button">Access Project</a>
-						</li>
-					</ul>
-				</article>
-				<article>
-					<header>
-						<span class="date">Jan 2022 - April 2022</span>
-						<h2><a href="#">KOBE</h2>
-					</header>
-					<a href="#" class="image fit"><img src="images/nba.png" alt="" /></a>
-					<p>Developed a web application is designed to provide in-depth analysis of the NBA leagues for team
-						managers, analysts and betting enthusiasts. It aims at combining data visualisation techniques
-						with data mining to extract information (patterns) that can be utilized during auction season or
-						while planning match lineups/strategies.</p>
-					<ul class="actions special">
-						<li><a href="https://github.com/karanbheda/KOBE" class="button">Access Project</a></li>
-					</ul>
-				</article>
+					</li>
+					<li>
+						<span class="icon major style3 fa-copy"></span>
+						<h3>KOBE</h3>
+						<p>Developed a web application is designed to provide in-depth analysis of the NBA leagues for
+							team
+							managers, analysts and betting enthusiasts. It aims at combining data visualisation
+							techniques
+							with data mining to extract information (patterns) that can be utilized during auction
+							season or
+							while planning match lineups/strategies.</p>
+						<a href="https://github.com/karanbheda/KOBE" class="button">Access Project</a>
+					<li>
+						<span class="icon major style5 fa-gem"></span>
+						<h3>CampR</h3>
+						<p>Built CampR, a user friendly web application which allows users to search and view
+							campgrounds with ease!It allows for people to create posts and reviews regarding
+							campgrounds.Built using MongoDB, Express and Node for seamless handling of routing, views,
+							controllers, and database operations,it is deployed over heroku. </p>
+						<a href="https://github.com/Rupsa25/CampProject" class="button">Access Project</a>
+					</li>
+					<li>
+						<span class="icon major style5 fa-gem"></span>
+						<h3>MassiveDataMining</h3>
+						<p>Implemented a MapReduce program using PySpark that implements a simple “People You Might
+							Know” social network friendship recommendation algorithm.Market Basket Analysis (MBA) a
+							technique used by
+							retailers to understand the purchase behavior of their customersis used to write an
+							algorithm to find
+							products which are frequently browsed together.</p>
+						<a href="https://github.com/Rupsa25/MassiveDataMining" class="button">Access Project</a>
+					</li>
+					<li>
+						<span class="icon major style5 fa-gem"></span>
+						<h3>What's cooking</h3>
+						<p>Developed a model to predict the type of cuisine from the list of ingredients given using
+							support vectors classifier.
+							Incorporated the concepts of text mining for the initial pre-processing such as use of
+							lemmatization,Tf-idf on the text
+							data and was able to achieve a final test score accuracy of 81.043% with the highest ranked
+							on leaderboard score being
+							83.216%.
+						</p>
+						<a href="https://github.com/Rupsa25/WhatsCookingKaggle" class="button">Access Project</a>
+					</li>
+				</ul>
 
 			</section>
 
-			<!-- Footer -->
+			<!-- Second Section -->
+			<section id="second" class="main special">
+				<header class="major">
+					<ul class="statistics">
+						<li class="style4">
+							<span class="icon solid fa-laptop"></span>
+						</li>
+					</ul>
+					<h2>Technologies</h2>
+					<p>These are few of the tools and technologies I have experience with:</p>
+				</header>
+				<ul class="actions special">
+					<li>
+						<div
+							style="background: color #f2f2f2;border: 1px solid #ccc;padding :10px;border-radius:5px; box-shadow: 0pc 2px 4px rgba(0,0,0,0.2);">
+							<h3 style="color:#3333;margin:0;"></h3>
+							<p style="color:#666;margin: 5px 0;font-size: 1.5rem;">Python</p>
+						</div>
+					</li>
+					<li>
+						<div
+							style="background: color #f2f2f2;border: 1px solid #ccc;padding :10px;border-radius:5px; box-shadow: 0pc 2px 4px rgba(0,0,0,0.2);">
+							<h3 style="color:#3333;margin:0;"></h3>
+							<p style="color:#666;margin: 5px 0;font-size: 1.5rem;">JavaScript</p>
+						</div>
+					</li>
+					<li>
+						<div
+							style="background: color #f2f2f2;border: 1px solid #ccc;padding :10px;border-radius:5px; box-shadow: 0pc 2px 4px rgba(0,0,0,0.2);">
+							<h3 style="color:#3333;margin:0;"></h3>
+							<p style="color:#666;margin: 5px 0;font-size: 1.5rem;">Scala</p>
+						</div>
+					</li>
+					<li>
+						<div
+							style="background: color #f2f2f2;border: 1px solid #ccc;padding :10px;border-radius:5px; box-shadow: 0pc 2px 4px rgba(0,0,0,0.2);">
+							<h3 style="color:#3333;margin:0;"></h3>
+							<p style="color:#666;margin: 5px 0;font-size: 1.5rem;">C++</p>
+						</div>
+					</li>
+					<li>
+						<div
+							style="background: color #f2f2f2;border: 1px solid #ccc;padding :10px;border-radius:5px; box-shadow: 0pc 2px 4px rgba(0,0,0,0.2);">
+							<h3 style="color:#3333;margin:0;"></h3>
+							<p style="color:#666;margin: 5px 0;font-size: 1.5rem;">MySQL</p>
+						</div>
+					</li>
 
+					<li>
+						<div
+							style="background: color #f2f2f2;border: 1px solid #ccc;padding :10px;border-radius:5px; box-shadow: 0pc 2px 4px rgba(0,0,0,0.2);">
+							<h3 style="color:#3333;margin:0;"></h3>
+							<p style="color:#666;margin: 5px 0;font-size: 1.5rem;">MongoDB</p>
+						</div>
+					</li>
+					<li>
+						<div
+							style="background: color #f2f2f2;border: 1px solid #ccc;padding :10px;border-radius:5px; box-shadow: 0pc 2px 4px rgba(0,0,0,0.2);">
+							<h3 style="color:#3333;margin:0;"></h3>
+							<p style="color:#666;margin: 5px 0;font-size: 1.5rem;">HTML</p>
+						</div>
+					</li>
+					<li>
+						<div
+							style="background: color #f2f2f2;border: 1px solid #ccc;padding :10px;border-radius:5px; box-shadow: 0pc 2px 4px rgba(0,0,0,0.2);">
+							<h3 style="color:#3333;margin:0;"></h3>
+							<p style="color:#666;margin: 5px 0;font-size: 1.5rem;">CSS</p>
+						</div>
+					</li>
+					<li>
+						<div
+							style="background: color #f2f2f2;border: 1px solid #ccc;padding :10px;border-radius:5px; box-shadow: 0pc 2px 4px rgba(0,0,0,0.2);">
+							<h3 style="color:#3333;margin:0;"></h3>
+							<p style="color:#666;margin: 5px 0;font-size: 1.5rem;">Express</p>
+						</div>
+					</li>
+					<li>
+						<div
+							style="background: color #f2f2f2;border: 1px solid #ccc;padding :10px;border-radius:5px; box-shadow: 0pc 2px 4px rgba(0,0,0,0.2);">
+							<h3 style="color:#3333;margin:0;"></h3>
+							<p style="color:#666;margin: 5px 0;font-size: 1.5rem;">NodeJS</p>
+						</div>
+					</li>
+					<li>
+						<div
+							style="background: color #f2f2f2;border: 1px solid #ccc;padding :10px;border-radius:5px; box-shadow: 0pc 2px 4px rgba(0,0,0,0.2);">
+							<h3 style="color:#3333;margin:0;"></h3>
+							<p style="color:#666;margin: 5px 0;font-size: 1.5rem;">Airflow</p>
+						</div>
+					</li>
+				</ul>
+				<ul class="actions special">
+					<li>
+						<div
+							style="background: color #f2f2f2;border: 1px solid #ccc;padding :10px;border-radius:5px; box-shadow: 0pc 2px 4px rgba(0,0,0,0.2);">
+							<h3 style="color:#3333;margin:0;"></h3>
+							<p style="color:#666;margin: 5px 0;font-size: 1.5rem;">Spark</p>
+						</div>
+					</li>
+					<li>
+						<div
+							style="background: color #f2f2f2;border: 1px solid #ccc;padding :10px;border-radius:5px; box-shadow: 0pc 2px 4px rgba(0,0,0,0.2);">
+							<h3 style="color:#3333;margin:0;"></h3>
+							<p style="color:#666;margin: 5px 0;font-size: 1.5rem;">Tableau</p>
+						</div>
+					</li>
+					<li>
+						<div
+							style="background: color #f2f2f2;border: 1px solid #ccc;padding :10px;border-radius:5px; box-shadow: 0pc 2px 4px rgba(0,0,0,0.2);">
+							<h3 style="color:#3333;margin:0;"></h3>
+							<p style="color:#666;margin: 5px 0;font-size: 1.5rem;">Shell Scripting</p>
+						</div>
+					</li>
+					<li>
+						<div
+							style="background: color #f2f2f2;border: 1px solid #ccc;padding :10px;border-radius:5px; box-shadow: 0pc 2px 4px rgba(0,0,0,0.2);">
+							<h3 style="color:#3333;margin:0;"></h3>
+							<p style="color:#666;margin: 5px 0;font-size: 1.5rem;">Numpy</p>
+						</div>
+					</li>
+					<li>
+						<div
+							style="background: color #f2f2f2;border: 1px solid #ccc;padding :10px;border-radius:5px; box-shadow: 0pc 2px 4px rgba(0,0,0,0.2);">
+							<h3 style="color:#3333;margin:0;"></h3>
+							<p style="color:#666;margin: 5px 0;font-size: 1.5rem;">Pandas</p>
+						</div>
+					</li>
+					<li>
+						<div
+							style="background: color #f2f2f2;border: 1px solid #ccc;padding :10px;border-radius:5px; box-shadow: 0pc 2px 4px rgba(0,0,0,0.2);">
+							<h3 style="color:#3333;margin:0;"></h3>
+							<p style="color:#666;margin: 5px 0;font-size: 1.5rem;">ScikitLearn</p>
+						</div>
+					</li>
+					<li>
+						<div
+							style="background: color #f2f2f2;border: 1px solid #ccc;padding :10px;border-radius:5px; box-shadow: 0pc 2px 4px rgba(0,0,0,0.2);">
+							<h3 style="color:#3333;margin:0;"></h3>
+							<p style="color:#666;margin: 5px 0;font-size: 1.5rem;">Pytorch</p>
+						</div>
+					</li>
+				</ul>
+			</section>
 
 		</div>
 
 		<!-- Footer -->
 		<footer id="footer">
-			<section class="split contact">
-				<section class="alt">
-					<h3>Address</h3>
-					<p>Piscataway, New Jersey, 08854</p>
-				</section>
-				<section>
-					<h3>Email</h3>
-					<p><a href="#">rupsachakraborty2622@gmail.com</a></p>
-				</section>
-				<section>
-					<h3>Social</h3>
-					<ul class="icons alt">
-						<li><a href="https://www.linkedin.com/in/rupsa-chakraborty25/"
-								class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
-						<li><a href="https://github.com/Rupsa25" class="icon brands alt fa-github"><span
-									class="label">GitHub</span></a></li>
-						<li><a href="assets/RCResumeL.pdf"><span class="label">Resume</span></a>
-						</li>
-
-					</ul>
-				</section>
+			<section>
+				<h2>View My Resume</h2>
+				<ul class="actions">
+					<li><a href="RCResume (11).pdf" class="button">View</a></li>
+				</ul>
+			</section>
+			<section>
+				<h2>Here are my socials, please feel free to contact!</h2>
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/rupsa-chakraborty25/"
+							class="icon brands fa-linkedin alt"><span class="label">Linkedin</span></a></li>
+					<li><a href="https://github.com/Rupsa25" class="icon brands fa-github alt"><span
+								class="label">GitHub</span></a></li>
+				</ul>
 			</section>
 		</footer>
 
@@ -194,13 +298,8 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-	<!---jquery--->
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-		integrity="sha384-4+rxvo+Y9l38cJvoN9+3nCb3oT+S39JXLbT+GJjV/6zTIU6aaCj+FJExa6Ykqh6n"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-		crossorigin="anonymous"></script>
+
+
 
 </body>
 
